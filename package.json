@@ -1,19 +1,21 @@
 {
-	"name": "api-system-pdv",
-	"version": "0.0.1",
-	"main": "dist/index.js",
-	"repository": "https://github.com/VictorzllDev/API-System-PDV",
-	"author": "VictorzllDev <VictorzllDev@gmail.com>",
-	"license": "MIT",
-	"scripts": {
-		"dev": "tsx watch src/index.ts",
-		"start": "node dist/index.js",
-		"build": "tsup src"
-	},
-	"devDependencies": {
-		"@types/node": "^22.0.0",
-		"tsup": "^8.2.3",
-		"tsx": "^4.16.2",
-		"typescript": "^5.5.4"
-	}
+  "name": "api-system-pdv",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "repository": "https://github.com/VictorzllDev/API-System-PDV",
+  "author": "VictorzllDev <VictorzllDev@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsup src",
+    "format": "biome check --write src"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "@types/node": "^22.0.0",
+    "tsup": "^8.2.3",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.4"
+  }
 }
